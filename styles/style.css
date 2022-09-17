@@ -9,6 +9,9 @@ body {
     margin: 0 auto;
     background-color: #19191B;
 }
+a {
+    text-decoration: none;
+}
 
 
 /* Header styles */
@@ -39,11 +42,16 @@ header {
 }
 .nav-item {
     margin: 0 20px;
+}
+.nav-item-text {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
+}
+.nav-item-text:hover {
+    color: #5454D4;
 }
 .btn-contact-us {
     width: 157px;
@@ -56,6 +64,12 @@ header {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #FFFFFF;
     border-radius: 5px;
+}
+.btn-contact-us:hover {
+    background-color: #FFFFFF;
+}
+.btn-contact-us:hover a {
+    color: #000000;
 }
 
 
@@ -97,6 +111,10 @@ header {
     background: #5454D4;
     border: 0px;
     border-radius: 4px;
+}
+.btn-our-services:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #5454D4;
 }
 .btn-our-services span {
     margin-right: 8px;
@@ -242,6 +260,17 @@ header {
     font-weight: 700;
     font-size: 58px;
     line-height: 66px;
+}
+.btn-contact-us-2 {
+    width: 204px;
+    height: 58px;
+    background: #5454D4;
+    border: 0px;
+    border-radius: 4px;
+}
+.btn-contact-us-2:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #5454D4;
 }
 
 
