@@ -1,4 +1,4 @@
 # Simple Layout
 ---
-Simple _HTML+CSS_ project.
+Simple _HTML+CSS_ project.  
 Width: _1440px._
